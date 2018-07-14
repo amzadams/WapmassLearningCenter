@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AddCourse">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/textColorPrimary"/>
+
+    <ImageButton
+        android:layout_below="@id/toolbar"
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="245dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@mipmap/add_btn" />
+
+    <EditText
+        android:layout_below="@id/imageButton"
+        android:id="@+id/postTitleEt"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint=" Add Title"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_below="@id/postTitleEt"
+        android:id="@+id/descriptionEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Add Description"
+        android:inputType="textPersonName"
+        android:padding="30dp" />
+
+    <Button
+        android:layout_below="@id/descriptionEt"
+        android:id="@+id/submitPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:text="Create"
+        android:textStyle="bold"
+       />
+
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progressBar"
+        android:layout_below="@id/imageButton"
+        android:visibility="invisible"/>
+</RelativeLayout>

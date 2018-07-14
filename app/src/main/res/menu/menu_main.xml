@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="wapmass.wapmasslearningcenter.Activities.MainActivity">
+    <item
+        android:id="@+id/about_wapmass"
+        android:title="@string/about_wapmass"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/add_course"
+        android:title="@string/add_course"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/signOut"
+        android:title="Sign Out"
+        android:visible="true"
+        app:showAsAction="never" />
+
+
+</menu>

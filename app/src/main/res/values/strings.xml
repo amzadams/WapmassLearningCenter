@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Wapmass Learning Center</string>
+    <string name="about_wapmass">About WapMass</string>
+    <string name="title_activity_about">About WapMass </string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="add_course">Add Course</string>
+    <string name="title_activity_add_course">Add Course</string>
+    <string name="prompt_email">User Email</string>
+    <string name="password">User Password</string>
+    <string name="sign_in">Login</string>
+</resources>

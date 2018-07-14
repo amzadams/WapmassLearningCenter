@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.AboutActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/textColorPrimary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#080"
+        android:layout_marginTop="10dp"
+        android:text="WAPMASS BUSINESS SCHOOL"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="\t Wapmass Business School (WBS) is an SBU of the West African Project, Program and Portfolio Managers Association (wapmass.net). Since 2014, WBS has provided high level executive education to service and industry drivers particularly within the West African Sub-Region and globally.\n\n  We offer both vocational and non vocational programs in project management, business administration and IT. Our seasoned instructors endeavour to bridge the gap between industry and academia, thereby removing the limitations and solving the conflicts between the “theoretical” and practicality. We help our students go beyond just satisfying the global chase for certifications to much heavier matters like thinking outside the box, filling in the blank spaces, archiving the obsoletes, mastering the available and mapping the future to an unending positive possibilities of inventions and solutions to universal needs. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t Our Vision"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Raising Global Best Practices and
+ Practitioners for Services and Industries "
+                android:textSize="20sp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t Our Mission"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To Train, Educate and Develop
+Via Physical and Virtual Campuses,
+and available E-Platforms.   "
+                android:textSize="20sp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

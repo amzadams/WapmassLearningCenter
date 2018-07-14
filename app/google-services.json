@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "200183185487",
+    "firebase_url": "https://wapmass-app.firebaseio.com",
+    "project_id": "wapmass-app",
+    "storage_bucket": "wapmass-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200183185487:android:ab448647b9362bb8",
+        "android_client_info": {
+          "package_name": "wapmass.wapmasslearningcenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200183185487-4upg33u2jvv8079ii8ddabaudvf2p8f2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wapmass.wapmasslearningcenter",
+            "certificate_hash": "bbea87499f7a6992abc8fb3264b40788cd38cf47"
+          }
+        },
+        {
+          "client_id": "200183185487-n7dn99igb0qniv3vni74cir6tru4j6gf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6G235CzOu6FCpeV1Rbe_5zlvkz8Sei0s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200183185487-n7dn99igb0qniv3vni74cir6tru4j6gf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
